@@ -1,0 +1,104 @@
+body {
+	padding: 0;
+	margin: 0;
+/*	убрать края фотки.обнулить отступ*/
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+* {
+	box-sizing: border-box;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+/*	обнулить отступ*/
+}
+a {
+	text-decoration: none;
+}
+.container{
+	width: 1170px;
+/*	позиционирование по центру*/
+	margin: 0 auto;
+}
+section{
+	padding-top: 113px;
+}
+
+.header {
+
+    background: url('../img/beck1.jpg') no-repeat center top;
+/*    фон*/
+padding-top: 57px;
+padding-bottom: 490px;
+}
+header a{
+	color: white;
+}
+.menu{
+display: flex; 
+/*в ряд*/
+}
+.menu li a{
+	text-transform:uppercase;
+/*	все капс*/
+	text-decoration: none;
+/*	без нижнего подчеркивания*/
+	font-size:24px;
+	letter-spacing: 0.1em;
+/*	растояние между буквами*/
+}
+.menu li {
+	margin-right: 40px;
+/*	пробелы между li*/
+}
+.tel {
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.menuDiv{
+	display: flex;
+	
+}
+.logo{
+	margin-right: 69px;
+}
+.mid{
+	text-transform: uppercase;
+	margin-top: 230px;
+}
+.mid p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	
+}
+.mid h1{
+	font-size: 60px;
+	letter-spacing: 0.1em;
+	color: white;
+	margin-top: -9px;
+}
+.descLeft, .descRight{
+	margin-top:130px;
+	width: 567px;
+}
+.description{
+	display: flex;
+	justify-content: space-between;
+/*	отодвинит по разным сторонам дива*/
+}
+.description p{
+	font-weight: 400;
+	text-align: justify;
+}
+
+.photo{
+	width: 270px;
+	height: 370px;
+	display: flex;
+	justify-content: space-between;
+}
